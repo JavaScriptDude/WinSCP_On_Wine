@@ -1,13 +1,12 @@
 # WinSCP_On_Wine
 How to install WinSCP on Wine in Linux, or other OS's that support Wine.
 
-1)  Download files to a local folder like $HOME/apps/winscp:
+1)  Download files to a local folder like /tmp/winscp_install:
 * winscp.sh
 * WinSCP.desktop
 * WinSCP-Logo.png
+* Note: This folder will need to r
 * `cd` to this directory in a terminal window for the balance of steps
-* Make winscp.sh executable:
-```chmod a+x winscp.sh```
 
 2) Installation of WinSCP:
 ```
@@ -23,7 +22,8 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 * Manually copy over files over to $WINEPREFIX/drive_c/apps/winscp
 
 5) *nix executable deployment:
-* sudo ln -s `pwd`/winscp.sh /usr/bin/winscp
+* sudo cp `pwd`/winscp.sh /usr/bin/winscp
+* sudo chmod a+x /usr/bin/winscp
 * To verify, try running the following from commandline: `winscp`
 * * This should launch winscp GUI
 
