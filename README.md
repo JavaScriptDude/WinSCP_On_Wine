@@ -25,7 +25,7 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 * sudo cp `pwd`/winscp.sh /usr/bin/winscp
 * sudo chmod a+x /usr/bin/winscp
 * To verify, try running the following from commandline: `winscp`
-* * This should launch winscp GUI
+  * This should launch winscp GUI
 
 6) Desktop Installation:
 ```
