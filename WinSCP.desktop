@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WinSCP
+Exec=winscp
+Type=Application
+StartupNotify=true
+Comment=WinSCP: SFTP, FTP, WebDAV and SCP client
+Icon=WinSCP-Logo
+# Uncomment to ensure only one instance
+#StartupWMClass=WinSCP.exe
