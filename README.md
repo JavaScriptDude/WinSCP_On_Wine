@@ -18,7 +18,7 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 
 4) Deploy WinSCP files
 * Download `Portable executables` version of WinSCP from https://winscp.net
-** CLI Trick to open in default file manager `% xdg-open $WINEPREFIX/drive_c/apps/winscp`
+  * CLI Trick to open in default file manager `% xdg-open $WINEPREFIX/drive_c/apps/winscp`
 * Manually copy over files over to $WINEPREFIX/drive_c/apps/winscp
 
 5) *nix executable deployment:
