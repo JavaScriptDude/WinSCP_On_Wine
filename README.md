@@ -28,8 +28,8 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 
 #### 5) *nix executable deployment:
 ```
-sudo cp ./winscp.sh /usr/bin/winscp
-sudo chmod a+x /usr/bin/winscp
+sudo cp ./winscp.sh /usr/local/bin/winscp
+sudo chmod a+x /usr/local/bin/winscp
 ```
 To verify, try running the following from commandline: `winscp`
 * This should launch winscp GUI
