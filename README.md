@@ -17,7 +17,8 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 
 
 #### 3) Initialize WINEPREFIX `% winecfg`
-(no changes needed) Click ok
+Change to windows 10
+(thats all)
 
 
 #### 4) Deploy WinSCP files
@@ -37,8 +38,8 @@ To verify, try running the following from commandline: `winscp`
 
 #### 6) Desktop Installation:
 ```
-mkdir -p ~/.local/share/icons && cp ./WinSCP-Logo.png ~/.local/share/icons/
-desktop-file-install --dir=~/.local/share/applications ./WinSCP.desktop
+mkdir -p ~/.local/share/icons && cp ./WinSCP-Logo.png ${HOME}/.local/share/icons/
+desktop-file-install --dir=${HOME}/.local/share/applications ./WinSCP.desktop
 ```
 
 That should be it, If you don't see the WinSCP key when you hit the Super key, toggle the Super key another time and that should do it
