@@ -17,7 +17,7 @@ mkdir -p $WINEPREFIX/drive_c/apps/winscp
 
 
 #### 3) Initialize WINEPREFIX `% winecfg`
-Change to windows 10
+Ensure Windows version is set to windows 7
 (thats all)
 
 
